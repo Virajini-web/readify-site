@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Readify | Reading Flow</title>
+
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- PWA -->
+    <link rel="manifest" href="manifest.json">
+</head>
+<body>
+
+<header>
+    <nav class="navbar">
+        <div class="logo">Readify</div>
+
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="explorer.html">Explorer</a></li>
+            <li><a href="tracker.html">Tracker</a></li>
+            <li><a href="recommender.html">Recommender</a></li>
+            <li><a href="flow.html">Reading Flow</a></li>
+            <li><a href="feedback.html">Feedback</a></li>
+        </ul>
+
+        <div class="hamburger">&#9776;</div>
+    </nav>
+</header>
+
+<main>
+    <h1>Reading Flow</h1>
+
+    <p>Enhance your reading experience with calming background sounds.</p>
+
+    <button id="playRain">Play Rain</button>
+    <button id="stopSound">Stop</button>
+
+    <audio id="rainSound" src="audio/rain.mp3" loop></audio>
+</main>
+
+<footer>
+    <p>© 2025 Readify. All rights reserved.</p>
+</footer>
+
+<script src="js/common.js"></script>
+<script src="js/flow.js"></script>
+
+</body>
+</html>

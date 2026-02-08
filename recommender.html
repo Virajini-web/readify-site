@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Readify | Recommender</title>
+
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- PWA -->
+    <link rel="manifest" href="manifest.json">
+</head>
+<body>
+
+<header>
+    <nav class="navbar">
+        <div class="logo">Readify</div>
+
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="explorer.html">Explorer</a></li>
+            <li><a href="tracker.html">Tracker</a></li>
+            <li><a href="recommender.html">Recommender</a></li>
+            <li><a href="flow.html">Reading Flow</a></li>
+            <li><a href="feedback.html">Feedback</a></li>
+        </ul>
+
+        <div class="hamburger">&#9776;</div>
+    </nav>
+</header>
+
+<main>
+    <h1>Book Recommender</h1>
+
+    <p>Select your preferences to get book recommendations.</p>
+
+    <label for="genre">Genre</label><br>
+    <select id="genre">
+        <option value="fantasy">Fantasy</option>
+        <option value="romance">Romance</option>
+        <option value="mystery">Mystery</option>
+        <option value="sci-fi">Sci-Fi</option>
+    </select>
+    <br><br>
+
+    <label for="length">Reading Length</label><br>
+    <select id="length">
+        <option value="short">Short</option>
+        <option value="medium">Medium</option>
+        <option value="long">Long</option>
+    </select>
+    <br><br>
+
+    <button id="recommendBtn">Recommend</button>
+
+    <div id="recommendationResult"></div>
+</main>
+
+<footer>
+    <p>© 2025 Readify. All rights reserved.</p>
+</footer>
+
+<script src="js/common.js"></script>
+<script src="js/recommender.js"></script>
+
+</body>
+</html>

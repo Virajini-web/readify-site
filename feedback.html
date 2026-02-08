@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Readify | Feedback</title>
+
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- PWA -->
+    <link rel="manifest" href="manifest.json">
+</head>
+<body>
+
+<header>
+    <nav class="navbar">
+        <div class="logo">Readify</div>
+
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="explorer.html">Explorer</a></li>
+            <li><a href="tracker.html">Tracker</a></li>
+            <li><a href="recommender.html">Recommender</a></li>
+            <li><a href="flow.html">Reading Flow</a></li>
+            <li><a href="feedback.html">Feedback</a></li>
+        </ul>
+
+        <div class="hamburger">&#9776;</div>
+    </nav>
+</header>
+
+<main>
+    <h1>Feedback</h1>
+
+    <form id="feedbackForm">
+        <label for="name">Name</label><br>
+        <input type="text" id="name" required><br><br>
+
+        <label for="email">Email</label><br>
+        <input type="email" id="email" required><br><br>
+
+        <label for="message">Message</label><br>
+        <textarea id="message" rows="4" required></textarea><br><br>
+
+        <button type="submit">Submit</button>
+    </form>
+</main>
+
+<footer>
+    <p>© 2025 Readify. All rights reserved.</p>
+</footer>
+
+<script src="js/common.js"></script>
+
+</body>
+</html>
